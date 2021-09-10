@@ -1,0 +1,226 @@
+#sec1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/bg1.jpg") no-repeat center center;
+	color: #fff;
+	background-size: cover;
+}
+
+#sec1 .navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 3px 15px;
+}
+
+#sec1 .signUp {
+	background-color: #FD7469 !important;
+	border-radius: 25px;
+
+}
+
+#sec1 .navbar-light {
+	background-color: #FD7469 !important;
+}
+
+#sec1 .navbar-brand {
+	display: none !important;
+}
+
+#sec1 .navbar-toggler {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sec1 .container {
+	text-align: center;
+}
+
+#sec1 .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#sec1 nav+div {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#sec1 h1 {
+	font-size: 2.2rem;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#sec1 h2 {
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 300;
+}
+
+#sec1 aside {
+	margin-top: 30px;
+}
+
+#sec1 aside:first-of-type {
+	background-color: #fff;
+	border-radius: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	overflow: hidden;
+
+}
+
+
+#sec1 aside:first-of-type article {
+	background-color: #FD7469;
+	text-align: left;
+	padding: 20px;
+
+}
+
+#sec1 aside:first-of-type article h2 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+#sec1 aside:first-of-type article p {
+	font-size: 1rem;
+}
+
+#sec1 form {
+	margin: 20px;
+}
+
+#sec1 form .form-group:last-child input {
+	color: #ffffff;
+	background-color: #FD7469;
+}
+
+#sec2 .card-body p {
+	color: #b6b6b6;
+}
+
+#sec3 p {
+	color: #b6b6b6;
+}
+
+#sec4 p {
+	color: #b6b6b6;
+}
+
+#sec3 aside h4 span,
+#sec4 aside h5 span {
+	color: #FD7469;
+}
+
+.secbar {
+	height: 1.5rem;
+	background-color: #FD7469;
+	display: none;
+}
+
+#sec5 {
+	background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../images/bg2.jpg);
+}
+
+#sec5 h3 {
+	color: #ffffff;
+}
+
+#sec5 p {
+	color: #b6b6b6;
+}
+
+#sec5 form input {
+	height: 40px;
+}
+
+#sec5 form input:first-child {
+	text-indent: 15px;
+	color: #b6b6b6;
+}
+
+#sec5 form input:last-child {
+	color: #ffffff;
+	background-color: #FD7469;
+}
+
+#sec6 small {
+	color: #4e4e4e;
+}
+
+#sec6 .ic a {
+	color: #ffffff;
+}
+
+#sec6 .ic a:first-child {
+	background-color: #3b589e;
+	padding: 10px 15px;
+}
+
+#sec6 .ic a:nth-child(2) {
+	background-color: #5eaade;
+	padding: 10px 13px;
+}
+
+#sec6 .ic a:last-child {
+	background-color: #d6492e;
+	padding: 10px 10px;
+}
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#sec1 .navbar-brand {
+		display: inline-block !important;
+	}
+
+	#sec1 nav+div {
+		display: none;
+	}
+
+	#sec1 .navbar-light {
+		background-color: transparent !important;
+	}
+
+	#sec1 h1 {
+		margin-top: 60px;
+	}
+
+	#sec1 aside:last-child i {
+		font-size: 35px;
+		position: relative;
+		top: 32px;
+		right: 55px;
+	}
+
+	#sec1 aside:last-child div {
+		margin-top: -17px !important;
+	}
+
+	#sec3 aside {
+		margin-top: 65px !important;
+	}
+
+	#sec5 form {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	#sec5 form input {
+		width: 50% !important;
+	}
+
+	.secbar {
+		display: block;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
